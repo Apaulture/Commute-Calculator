@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		F478F52A2404945800D97B2F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F478F5292404945800D97B2F /* main.cpp */; };
+		F478F5342404947800D97B2F /* calculate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F478F5302404947800D97B2F /* calculate.cpp */; };
+		F478F5352404947800D97B2F /* io.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F478F5312404947800D97B2F /* io.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		F478F5262404945800D97B2F /* Commute-Calculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Commute-Calculator"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F478F5292404945800D97B2F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F478F5302404947800D97B2F /* calculate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = calculate.cpp; sourceTree = "<group>"; };
+		F478F5312404947800D97B2F /* io.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = io.cpp; sourceTree = "<group>"; };
+		F478F5322404947800D97B2F /* calculate.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = calculate.hpp; sourceTree = "<group>"; };
+		F478F5332404947800D97B2F /* io.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = io.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,10 @@
 		F478F5282404945800D97B2F /* Commute-Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				F478F5302404947800D97B2F /* calculate.cpp */,
+				F478F5322404947800D97B2F /* calculate.hpp */,
+				F478F5312404947800D97B2F /* io.cpp */,
+				F478F5332404947800D97B2F /* io.hpp */,
 				F478F5292404945800D97B2F /* main.cpp */,
 			);
 			path = "Commute-Calculator";
@@ -119,6 +129,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F478F5342404947800D97B2F /* calculate.cpp in Sources */,
+				F478F5352404947800D97B2F /* io.cpp in Sources */,
 				F478F52A2404945800D97B2F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
